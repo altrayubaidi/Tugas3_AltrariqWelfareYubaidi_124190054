@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cetak_gambar"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/shareinfo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/cetak_gambar"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="15dp"
+        android:text="Share"
+        android:textSize="9.5dp"/>
+
+    <Button
+        android:id="@+id/detailinfo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/shareinfo"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="15dp"
+        android:text="Detail"
+        android:textSize="9.5dp"/>
+
+    <TextView
+        android:id="@+id/cetak_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/cetak_gambar"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+
+</RelativeLayout>
